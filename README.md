@@ -50,7 +50,7 @@ meshes — and nonlinear activations applied digitally. Each linear layer comput
 
 $$X_\ell = \phi_\ell(\hat{W}_\ell X_{\ell-1})$$
 
-where $\hat{W}_\ell = D\hat{W}^\#$ is parameterized by the phase shifter settings
+where $\hat{W}_\ell = D\hat{W}^{\sharp}$ is parameterized by the phase shifter settings
 of the MZI mesh. The Clements topology implements a universal $N \times N$ unitary
 transformation using $N(N-1)/2$ MZIs.
 
